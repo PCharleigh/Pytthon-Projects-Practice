@@ -1,0 +1,8 @@
+print("=== Wacky Recipe Generator ===")
+food = input("Give me a type of food:")
+plant = input("Give me a type of plant:")
+method = input("Give me a method of cooking:")
+word = input("Give a word that decribes burned food:")
+item = input("Name a household item:")
+
+print(method, food, "topped with", word, plant, " displayed on a bed of ", item)
